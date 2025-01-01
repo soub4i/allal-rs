@@ -2,8 +2,6 @@ use std::env;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-
-
     let message = if args.len() > 1 {
         &args[1]
     } else {
@@ -11,8 +9,6 @@ fn main() {
     };
 
     let len = message.len();
-
-    
     let bt = "_".repeat(len + 4);
     let bb = "-".repeat(len + 4);
 
