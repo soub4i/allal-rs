@@ -31,6 +31,18 @@ Example output:
 
 ## Installation
 
+### Using curl (Linux/macOS)
+
+```bash
+curl -L https://github.com/soub4i/allal-rs/releases/latest/download/allal-rs-x86_64-unknown-linux-gnu.tar.gz | tar xz -C /usr/local/bin
+
+# For macOS
+curl -L https://github.com/soub4i/allal-rs/releases/latest/download/allal-rs-x86_64-apple-darwin.tar.gz | tar xz -C /usr/local/bin
+
+# Make it executable
+chmod +x /usr/local/bin/allal-rs
+```
+
 ### From Cargo
 
 ```bash
@@ -70,5 +82,4 @@ allal-rs "Wisdom comes to those who wait"
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 
----
-Made with ❤️ using Rust
+
